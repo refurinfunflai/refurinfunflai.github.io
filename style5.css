@@ -87,21 +87,3 @@ box-shadow: 0px 13px 4px -10px rgba(0,0,0,0.3);
   animation-iteration-count: infinite;
   opacity: 1 !important;
 }
-#my-video {
-    width: 940px; /* Ancho del video */
-    height: 660px; /* Alto del video */
-  height: auto; /* Esto mantendrá la proporción de aspecto */
-}
-
-
-
-
-/* Deshabilita la opción de descarga */
-#my-video::-webkit-media-controls-enclosure {
-  overflow: hidden;
-}
-
-#my-video::-webkit-media-controls-panel {
-  width: calc(100% + 30px); /* Ajusta el ancho para cubrir completamente el video */
-  margin-left: -15px;
-}
